@@ -13,7 +13,7 @@ def main():
 
     llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
-    promptTemplate = ChatPromptTemplate.from_messages(
+    prompt = ChatPromptTemplate.from_messages(
         [
             ("system", "You are a helpful assistant."),
             ("human", "{topic}"),
@@ -22,13 +22,11 @@ def main():
 
     output_parser = StrOutputParser()
 
-    chain = promptTemplate | llm | output_parser
+    chain = prompt | llm | output_parser
 
     response = chain.invoke("Explain quantum physics in one sentence.")
     print(response)
 
-
-    print(type(response)) 
 
 if __name__ == "__main__":
     main()
