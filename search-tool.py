@@ -7,6 +7,7 @@ from langchain_tavily import TavilySearch
 
 load_dotenv()
 
+#lesson 2
 def main():
     print("Hello from real search tool!")
 
