@@ -49,6 +49,8 @@ def clear_pinecone_namespace(namespace_name: str):
 
 if __name__ == "__main__":
     # Change this if you used a different namespace name
+    # __default__
+    # vector-db-blog
     TARGET_NAMESPACE = "vector-db-blog"
 
     confirm = input(

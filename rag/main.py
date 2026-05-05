@@ -36,19 +36,6 @@ prompt = ChatPromptTemplate.from_template(
     Detailed Answer:"""
 )
 
-
-# def format_docs(docs):
-#     """ format retrieved documents into a string to be included in the prompt."""
-#     formatted = []
-#     for doc in docs:
-#         metadata = doc.metadata
-#         source_info = f"Source: {metadata.get('source', 'Unknown')}"
-#         formatted.append(f"{doc.page_content}\n{source_info}")
-#     print("\n--- FORMATTED DOCS START ---")
-#     print("\n\n".join(formatted))
-#     print("--- FORMATTED DOCS END ---\n")
-#     return "\n\n".join(formatted)
-
 def format_docs(docs):
     """Format retrieved documents with clear XML-style tags for the LLM."""
     formatted = []
