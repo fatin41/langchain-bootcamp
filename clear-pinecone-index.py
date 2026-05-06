@@ -51,7 +51,7 @@ if __name__ == "__main__":
     # Change this if you used a different namespace name
     # __default__
     # vector-db-blog
-    TARGET_NAMESPACE = "vector-db-blog"
+    TARGET_NAMESPACE = "langchain-docs"
 
     confirm = input(
         f"Are you sure you want to delete ALL data in the '{TARGET_NAMESPACE}' namespace? (y/n): ")
