@@ -85,9 +85,3 @@ cd rag
 python ingestion.py
 python main.py
 ```
-
-## 🧪 Questions for Developers/Contributors
-*To make this README even more detailed, please clarify:*
-1. Is there a specific Pinecone index configuration (dimension, metric) recommended for `gemini-embedding-2` (e.g., 1536 dimensions, Cosine similarity)?
-2. Should any of the root-level scripts be considered "deprecated" in favor of the `langchain-helper` version?
-3. Is there a frontend planned, or is this intended strictly as a backend/CLI set of tools?
