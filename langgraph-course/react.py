@@ -15,7 +15,9 @@ def triple(num: float) -> float:
 
     return float(num) * 3
 
+
 tavily_tool = TavilySearch(max_results=1)
+
 
 @tool
 def get_weather(location: str) -> str:
