@@ -1,9 +1,9 @@
-from dotenv import load_dotenv
 from ingestion import retriever
 from graph.chains.retrieval_grader import GradeDocuments, retrieval_grader
 
 
-load_dotenv()
+def test_foo() -> None:
+    assert 1 == 1
 
 
 def test_retrival_grader_answer_yes() -> None:
