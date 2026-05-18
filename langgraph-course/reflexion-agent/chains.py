@@ -50,6 +50,7 @@ if __name__ == "__main__":
              | llm.bind_tools(tools=[AnswerQuestion], tool_choice="AnswerQuestion")
              | parser_pydantic
              )
-
+    
     res = chain.invoke(input={"messages": [human_message]})
     print(res)
+    
