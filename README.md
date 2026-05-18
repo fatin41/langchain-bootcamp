@@ -87,3 +87,4 @@ uv sync
 - **Ingest Docs:** `python langchain-helper/ingestion.py`
 - **Agentic RAG:** `python langgraph-course/agentic-rag/main.py`
 - **Reflection Agent:** `python langgraph-course/reflection-agent/main.py`
+- **Reflexion Agent:** `python langgraph-course/reflexion-agent/main.py`
